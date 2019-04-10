@@ -59,7 +59,7 @@ $(function() {
 
         let text = {"orderId": result,"operate": radio, "text" : feedback};
 
-        if (radio==='reject' && feedback==null){
+        if (radio==='reject' && feedback===''){
             alert("You should give some feedback for your rejection!");
         }else{
             $.ajax({
